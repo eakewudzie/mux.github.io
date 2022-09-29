@@ -36,7 +36,7 @@
 
 .navbar ul li a{
     text-decoration:none;
-    color: #000000;
+    color: #ffffff;
     font-size: 15px;
     font-weight: 600
 }
@@ -72,4 +72,22 @@
 #icon {
    width: 80px;
    cursor: pointer; 
+}
+
+
+@media only screen and (max-width: 600px){
+   .container{
+       background-image: url(media/headset.jpg);
+   
+}
+.right-col p{
+    font-size: 30px;
+}
+
+.navbar ul li a{
+    text-decoration:none;
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 600
+}
 }
